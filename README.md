@@ -14,10 +14,4 @@
 #### RPC Port: - *7475* 
 #### P2P Port: - *7474* 
 
-#
-
-### Block reward breakdown (Block height - Reward per block)
-#
-
-
 
