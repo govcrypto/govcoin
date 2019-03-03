@@ -1,0 +1,26 @@
+[Unit]
+Description=GOV's distributed currency daemon
+After=network.target
+
+[Service]
+User=gov
+Group=gov
+
+Type=forking
+PIDFile=/var/lib/govd/govd.pid
+
+ExecStart=/usr/bin/govd -daemon -pid=/var/lib/govd/govd.pid \
+          -conf=/etc/gov/gov.conf -datadir=/var/lib/govd
+
+ExecStop=-/usr/bin/gov-cli -conf=/etc/gov/gov.conf \
+         -datadir=/var/lib/govd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

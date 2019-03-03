@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/gov_bg.qm</file>
+        <file alias="ca">locale/gov_ca.qm</file>
+        <file alias="cs">locale/gov_cs.qm</file>
+        <file alias="da">locale/gov_da.qm</file>
+        <file alias="de">locale/gov_de.qm</file>
+        <file alias="en">locale/gov_en.qm</file>
+        <file alias="en_US">locale/gov_en_US.qm</file>
+        <file alias="es">locale/gov_es.qm</file>
+        <file alias="fi">locale/gov_fi.qm</file>
+        <file alias="fr_FR">locale/gov_fr_FR.qm</file>
+        <file alias="it">locale/gov_it.qm</file>
+        <file alias="ja">locale/gov_ja.qm</file>
+        <file alias="ko_KR">locale/gov_ko_KR.qm</file>
+        <file alias="nl">locale/gov_nl.qm</file>
+        <file alias="pl">locale/gov_pl.qm</file>
+        <file alias="pt">locale/gov_pt.qm</file>
+        <file alias="pt_BR">locale/gov_pt_BR.qm</file>
+        <file alias="ro_RO">locale/gov_ro_RO.qm</file>
+        <file alias="ru">locale/gov_ru.qm</file>
+        <file alias="sk">locale/gov_sk.qm</file>
+        <file alias="sv">locale/gov_sv.qm</file>
+        <file alias="tr">locale/gov_tr.qm</file>
+        <file alias="uk">locale/gov_uk.qm</file>
+        <file alias="zh_CN">locale/gov_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gov_zh_TW.qm</file>
+    </qresource>
+</RCC>

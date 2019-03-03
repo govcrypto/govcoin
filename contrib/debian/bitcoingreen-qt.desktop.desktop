@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GOV
+Comment=GOV P2P Cryptocurrency
+Exec=gov-qt %u
+Terminal=false
+Type=Application
+Icon=gov128
+MimeType=x-scheme-handler/gov;
+Categories=Office;Finance;
+Name[en_US]=gov-qt.desktop
